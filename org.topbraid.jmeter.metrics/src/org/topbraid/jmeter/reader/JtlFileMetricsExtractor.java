@@ -17,7 +17,7 @@ import org.xml.sax.SAXException;
 
 public class JtlFileMetricsExtractor {
 
-	public static final String IN_FILE = "listener-locks.jtl";
+	public static final String IN_FILE = "listener.jtl";
 	public static final String ELEMENT_NAME = "httpSample";
 	public static final String LT_ATTRIBUTE = "lt";
 	public static final String T_ATTRIBUTE = "t";
