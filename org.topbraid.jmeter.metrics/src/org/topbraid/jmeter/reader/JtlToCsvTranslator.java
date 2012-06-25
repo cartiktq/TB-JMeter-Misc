@@ -20,7 +20,7 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 public class JtlToCsvTranslator {
-	public static final String IN_FILE = "listener.jtl";
+	public static final String IN_FILE = "listener-locks.jtl";
 	public static final String OUT_CSV_FILE = "listener.csv";
 	public static final String ELEMENT_NAME = "httpSample";
 	public static final String LT_ATTRIBUTE = "lt";

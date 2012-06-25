@@ -15,9 +15,10 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+@Deprecated
 public class JtlFileMetricsExtractor {
 
-	public static final String IN_FILE = "listener.jtl";
+	public static final String IN_FILE = "listener-locks.jtl";
 	public static final String ELEMENT_NAME = "httpSample";
 	public static final String LT_ATTRIBUTE = "lt";
 	public static final String T_ATTRIBUTE = "t";

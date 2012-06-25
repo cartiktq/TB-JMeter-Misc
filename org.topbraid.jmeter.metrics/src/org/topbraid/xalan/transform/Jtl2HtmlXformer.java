@@ -13,9 +13,9 @@ public class Jtl2HtmlXformer {
 	public static void main(String[] args){
 		TransformerFactory factory = TransformerFactory.newInstance();
 		Source xslFile = new StreamSource("Jtl2Html.xsl");
-		Source inputXmlFile = new StreamSource("listenerRamWithTrue.jtl");
+		Source inputXmlFile = new StreamSource("listener-locks.jtl");
 		try{
-			StreamResult outputFile = new StreamResult(new FileOutputStream("listenerRamWithTrue.html"));
+			StreamResult outputFile = new StreamResult(new FileOutputStream("listenerLocks.html"));
 			Transformer transformer = factory.newTransformer(xslFile);
 			transformer.transform(inputXmlFile, outputFile);
 		}catch(Exception e){
